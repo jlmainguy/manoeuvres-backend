@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_post_media",
+  "info": {
+    "displayName": "Media",
+    "icon": "air-freshener"
+  },
+  "options": {},
+  "attributes": {
+    "Media": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
