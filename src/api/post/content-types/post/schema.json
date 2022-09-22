@@ -38,6 +38,12 @@
         "post.richtext",
         "post.media"
       ]
+    },
+    "Bibliography": {
+      "displayName": "Bibliography",
+      "type": "component",
+      "repeatable": true,
+      "component": "post.bibliography"
     }
   }
 }

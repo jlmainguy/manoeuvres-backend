@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_post_bibliographies",
+  "info": {
+    "displayName": "Bibliography"
+  },
+  "options": {},
+  "attributes": {
+    "BibliographyElement": {
+      "type": "text"
+    }
+  }
+}

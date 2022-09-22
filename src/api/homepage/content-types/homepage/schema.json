@@ -12,12 +12,6 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Titles": {
-      "type": "dynamiczone",
-      "components": [
-        "homepage.titles"
-      ]
-    },
     "HomepageImages": {
       "type": "media",
       "multiple": true,
@@ -45,6 +39,12 @@
         "videos",
         "audios"
       ]
+    },
+    "MainTitle": {
+      "displayName": "MainTitle",
+      "type": "component",
+      "repeatable": true,
+      "component": "homepage.main-title"
     }
   }
 }
