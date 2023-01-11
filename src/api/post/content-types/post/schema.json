@@ -44,6 +44,12 @@
       "type": "component",
       "repeatable": true,
       "component": "post.bibliography"
+    },
+    "BibliographyText": {
+      "type": "richtext"
+    },
+    "PublicationDate": {
+      "type": "datetime"
     }
   }
 }

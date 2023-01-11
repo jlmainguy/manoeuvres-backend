@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_entry_contacts",
+  "info": {
+    "displayName": "Contact",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "Website": {
+      "type": "string"
+    },
+    "StreetAddress": {
+      "type": "string"
+    },
+    "City": {
+      "type": "string"
+    },
+    "Country": {
+      "type": "string"
+    },
+    "PostalCode": {
+      "type": "string"
+    }
+  }
+}
