@@ -4,7 +4,8 @@
   "info": {
     "singularName": "entry",
     "pluralName": "entries",
-    "displayName": "Directory"
+    "displayName": "Directory",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -23,6 +24,53 @@
       "type": "component",
       "repeatable": false,
       "component": "entry.contact"
+    },
+    "Category": {
+      "type": "customField",
+      "options": [
+        "Artiste, designer et concepteur",
+        "Association et regroupement",
+        "Centre d'artiste",
+        "Centre de recherche",
+        "Coworking",
+        "Développement de projet",
+        "Enseignement",
+        "Événementiel",
+        "Fablab",
+        "Fondation",
+        "Incubateur",
+        "Incubateur",
+        "Lieu communautaire",
+        "Lieu de diffusion",
+        "Média et publication",
+        "Résidence"
+      ],
+      "customField": "plugin::multi-select.multi-select"
+    },
+    "Domain": {
+      "type": "customField",
+      "options": [
+        "Académique",
+        "Aménagement",
+        "Artistique",
+        "Communautaire et implication citoyenne",
+        "Innovation sociale"
+      ],
+      "customField": "plugin::multi-select.multi-select"
+    },
+    "ActionMode": {
+      "type": "customField",
+      "options": [
+        "Créer",
+        "Diffuser et promouvoir",
+        "Éduquer et sensibiliser",
+        "Expertise",
+        "Fédérer",
+        "Financer",
+        "Incuber",
+        "Rechercher"
+      ],
+      "customField": "plugin::multi-select.multi-select"
     }
   }
 }
