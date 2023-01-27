@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_post_bibliography_elements",
+  "info": {
+    "displayName": "BibliographyElement",
+    "icon": "book-open",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "BibliographyElementText": {
+      "type": "text"
+    },
+    "BibliographyElementUrl": {
+      "type": "string"
+    }
+  }
+}

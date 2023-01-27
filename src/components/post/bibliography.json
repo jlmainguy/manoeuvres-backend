@@ -1,12 +1,16 @@
 {
   "collectionName": "components_post_bibliographies",
   "info": {
-    "displayName": "Bibliography"
+    "displayName": "Bibliography",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "BibliographyElement": {
-      "type": "text"
+    "BibliographyLinkableElement": {
+      "displayName": "BibliographyElement",
+      "type": "component",
+      "repeatable": false,
+      "component": "post.bibliography-element"
     }
   }
 }
