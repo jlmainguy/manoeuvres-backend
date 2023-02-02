@@ -70,6 +70,16 @@
         "Rechercher"
       ],
       "customField": "plugin::multi-select.multi-select"
+    },
+    "MainImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
