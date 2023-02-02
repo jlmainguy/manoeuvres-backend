@@ -51,7 +51,7 @@
     "PublicationDate": {
       "type": "datetime"
     },
-    "SecondaryImage": {
+    "OtherImages": {
       "allowedTypes": [
         "images",
         "files",
@@ -59,7 +59,7 @@
         "audios"
       ],
       "type": "media",
-      "multiple": false
+      "multiple": true
     }
   }
 }
