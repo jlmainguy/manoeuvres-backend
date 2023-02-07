@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "directories",
+  "info": {
+    "singularName": "directory",
+    "pluralName": "directories",
+    "displayName": "Directory"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Introduction": {
+      "type": "text"
+    },
+    "HelpText": {
+      "type": "text"
+    },
+    "AboutText": {
+      "type": "richtext"
+    }
+  }
+}
