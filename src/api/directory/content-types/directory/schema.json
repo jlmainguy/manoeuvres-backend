@@ -4,7 +4,8 @@
   "info": {
     "singularName": "directory",
     "pluralName": "directories",
-    "displayName": "Directory"
+    "displayName": "Directory",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -22,6 +23,13 @@
     },
     "AboutText": {
       "type": "richtext"
+    },
+    "Images": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true
     }
   }
 }
