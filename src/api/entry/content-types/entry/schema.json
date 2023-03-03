@@ -4,7 +4,7 @@
   "info": {
     "singularName": "entry",
     "pluralName": "entries",
-    "displayName": "Directory",
+    "displayName": "Repertoire_Posts",
     "description": ""
   },
   "options": {
@@ -72,14 +72,15 @@
       "customField": "plugin::multi-select.multi-select"
     },
     "MainImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     }
   }
 }

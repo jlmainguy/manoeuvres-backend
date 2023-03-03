@@ -4,7 +4,7 @@
   "info": {
     "singularName": "homepage",
     "pluralName": "homepages",
-    "displayName": "Homepage",
+    "displayName": "Semaphore_Homepage",
     "description": ""
   },
   "options": {
@@ -45,6 +45,12 @@
       "type": "component",
       "repeatable": true,
       "component": "homepage.main-title"
+    },
+    "MetaTitle": {
+      "type": "string"
+    },
+    "MetaDescription": {
+      "type": "text"
     }
   }
 }

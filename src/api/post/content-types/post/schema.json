@@ -4,7 +4,7 @@
   "info": {
     "singularName": "post",
     "pluralName": "posts",
-    "displayName": "Post",
+    "displayName": "Semaphore_Posts",
     "description": ""
   },
   "options": {
@@ -52,14 +52,15 @@
       "type": "datetime"
     },
     "OtherImages": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
     }
   }
 }

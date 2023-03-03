@@ -4,7 +4,7 @@
   "info": {
     "singularName": "directory",
     "pluralName": "directories",
-    "displayName": "Directory",
+    "displayName": "Repertoire_Homepage",
     "description": ""
   },
   "options": {
@@ -25,11 +25,18 @@
       "type": "richtext"
     },
     "Images": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
+    },
+    "MetaTitle": {
+      "type": "string"
+    },
+    "MetaDescription": {
+      "type": "text"
     }
   }
 }
